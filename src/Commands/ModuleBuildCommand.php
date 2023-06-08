@@ -191,47 +191,47 @@ class ModuleBuildCommand extends Command
                 break;
 
             case 'views_backend_index':
-                $value = $moduleNameLowerPlural;
+                $value = $moduleNameLower;
                 $filePath = str_replace('stubViews', $value, $filePath);
                 break;
 
             case 'views_backend_index_datatable':
-                $value = $moduleNameLowerPlural;
+                $value = $moduleNameLower;
                 $filePath = str_replace('stubViews', $value, $filePath);
                 break;
 
             case 'views_backend_create':
-                $value = $moduleNameLowerPlural;
+                $value = $moduleNameLower;
                 $filePath = str_replace('stubViews', $value, $filePath);
                 break;
 
             case 'views_backend_form':
-                $value = $moduleNameLowerPlural;
+                $value = $moduleNameLower;
                 $filePath = str_replace('stubViews', $value, $filePath);
                 break;
 
             case 'views_backend_show':
-                $value = $moduleNameLowerPlural;
+                $value = $moduleNameLower;
                 $filePath = str_replace('stubViews', $value, $filePath);
                 break;
 
             case 'views_backend_edit':
-                $value = $moduleNameLowerPlural;
+                $value = $moduleNameLower;
                 $filePath = str_replace('stubViews', $value, $filePath);
                 break;
 
             case 'views_backend_trash':
-                $value = $moduleNameLowerPlural;
+                $value = $moduleNameLower;
                 $filePath = str_replace('stubViews', $value, $filePath);
                 break;
 
             case 'views_frontend_index':
-                $value = $moduleNameLowerPlural;
+                $value = $moduleNameLower;
                 $filePath = str_replace('stubViews', $value, $filePath);
                 break;
 
             case 'views_frontend_show':
-                $value = $moduleNameLowerPlural;
+                $value = $moduleNameLower;
                 $filePath = str_replace('stubViews', $value, $filePath);
                 break;
 
